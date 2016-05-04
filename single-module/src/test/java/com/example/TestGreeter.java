@@ -40,6 +40,6 @@ public class TestGreeter {
   @Test
   public void successTest()
   {
-    assertThat(3, is(greaterThan(2)));
+    assertThat(4, is(greaterThan(2)));
   }
 }
