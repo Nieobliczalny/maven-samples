@@ -34,6 +34,6 @@ public class TestGreeter {
   @Test
   public void failedTest()
   {
-    fail("It should fail!");
+    assertThat(1, is(greaterThan(2)));
   }
 }
