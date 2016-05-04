@@ -36,4 +36,10 @@ public class TestGreeter {
   {
     assertThat(1, is(greaterThan(2)));
   }
+
+  @Test
+  public void successTest()
+  {
+    assertThat(3, is(greaterThan(2)));
+  }
 }
